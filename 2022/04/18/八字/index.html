@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Lsc">
+    
+    <title>
+        
+        理中客玄
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/63cheng/album/main/202204161117200.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/css/font-awesome.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.json"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":false,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"https://raw.githubusercontent.com/63cheng/album/main/202204161103424.jpg","favicon":"https://raw.githubusercontent.com/63cheng/album/main/202204161117200.ico","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_img":"https://cdn.jsdelivr.net/gh/63cheng/album/202204162004388.jpg","description":"有朋自远方来，不亦乐乎."},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":true}}},"local_search":{"enable":true,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+<meta name="generator" content="Hexo 6.1.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fas fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://raw.githubusercontent.com/63cheng/album/main/202204161120753.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                理中客玄
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation"></span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="https://raw.githubusercontent.com/63cheng/album/main/202204161103424.jpg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Lsc</span>
+                        
+                            <span class="author-label">Lv6</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-04-18 12:27:24</span>
+        <span class="mobile">2022-04-18 12:27</span>
+    </span>
+    
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>3k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>10 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <table>
+    <caption>八字</caption>
+    <tr>
+        <td>时</td>
+        <td>日</td>
+        <td>月</td>
+        <td>年</td>
+    </tr>
+    <tr>
+        <td>乙卯</td>
+        <td>戊寅</td>
+        <td>丙午</td>
+        <td>壬申</td>
+    </tr>
+</table>
+
+<table>
+    <caption>天干</caption>
+    <tr>
+        <td>五行</td>
+        <td>木</td>
+        <td>火</td>
+        <td>土</td>
+        <td>金</td>
+        <td>水</td>
+    </tr>
+    <tr>
+        <td>阳</td>
+        <td>甲</td>
+        <td>丙</td>
+        <td>戊</td>
+        <td>庚</td>
+        <td>壬</td>
+    </tr>
+    <tr>
+        <td>阴</td>
+        <td>乙</td>
+        <td>丁</td>
+        <td>己</td>
+        <td>辛</td>
+        <td>癸</td>
+    </tr>
+</table>
+<table>
+    <caption>地支</caption>
+    <tr>
+        <td>五行</td>
+        <td>水</td>
+        <td>湿土</td>
+        <td>木</td>
+        <td>火</td>
+        <td>燥土</td>
+        <td>金</td>
+    </tr>
+    <tr>
+        <td>阳</td>
+        <td>子</td>
+        <td>辰</td>
+        <td>寅</td>
+        <td>午</td>
+        <td>戌</td>
+        <td>申</td>
+    </tr>
+    <tr>
+        <td>阴</td>
+        <td>亥</td>
+        <td>丑</td>
+        <td>卯</td>
+        <td>巳</td>
+        <td>未</td>
+        <td>酉</td>
+    </tr>
+</table>
+地支：子藏有癸阴水、丑藏己土辛金癸水、寅中藏有甲木丙火戊土、卯中藏乙木、辰中藏戊土乙木和癸水、巳中藏有丙火庚金和戊土、午中藏有丁火和己土、未中藏有己土丁火和乙木、申中藏有庚金壬水和戊土、酉中藏有辛金、戌中藏有戊土辛金和丁火、亥中藏有甲木和壬水。
+
+<p>五行相生：水生木，木生火，火生土，土生金，金生水；<br>五行相克：金克木，木克土，土克水，水克火，火克金。</p>
+<p>命局<br>十神</p>
+<ul>
+<li>生我者为枭印。同性为偏印，简称枭；异性为正印，简称印。</li>
+<li>同我者为比劫。同性为比肩，简称比；异性为劫财，简称劫。</li>
+<li>我生者为食伤。同性为食神，简称食；异性为伤官，简称伤。</li>
+<li>我克者为才财。同性为偏财，简称财；异性为正财，简称才。</li>
+<li>克我者为杀官。同性为偏官，简称杀；异性为正官，简称官。</li>
+</ul>
+<p>十神相生：正偏财生官杀，官杀生印枭，印枭生日主比劫，比劫生食伤，食伤生正偏财。</p>
+<p>十神相克：正偏财克印枭，印枭克食伤，食伤克官杀，官杀克日主比劫，比劫克正偏财。</p>
+<p>同性生克力大，异性生克力小。劫伤财官印，比食才杀枭。<br>正官的职能：是善意之管，譬如人类，必须遵从政府与法律管束。正官一般以吉神论。</p>
+<p>正官的扶抑能力：卫财，生印，抑身，制劫。身强财弱，正官生印。日干旺盛，正官拘身。日旺劫多，正官制劫。<br>七杀的职能：杀身之对手，专以攻身为尚，若无礼法制裁，必伤其主（日干），故有制（有食神，伤官克制）谓之偏官，无制谓之七杀。一般以凶神论。</p>
+<p>七杀的扶抑能力：耗财，生印，攻身，制劫。日强财弱，七杀耗财。日强印轻，七杀生印。印轻财重，七杀攻身。日强劫多，七杀制劫。<br>正偏财职能：是养命之源，人人所欲，但非人人所得，古今皆然。一般以吉神论。</p>
+<p>财星的扶抑能力：生官杀，泄食伤，制枭神，坏正印。日旺官杀弱，财生官杀。日旺财弱，财泄食伤。日旺枭神旺，偏财制枭神。日旺正印旺，正财坏正印。<br>正偏印职能：我之气源，如父母生身之义。正印一般为吉神，偏印一般为凶神，又称枭神，见食（食神）而夺为枭神之故。</p>
+<p>正偏印的扶抑能力：生身，泄官杀，御伤，挫食。日弱官杀强，印星泄官杀生身。日弱食伤重，正印御伤，偏印挫食。<br>食伤的职能：伤见官仗势欺之，放任日干于理法之外，故一般以凶神论；食见杀则能制服，使日干得以安然无故，一般以吉神论。</p>
+<p>食伤的扶抑能力：泄身，生财，敌杀，损官。身强财官弱，食伤泄身。身强财弱，食伤生财。身弱官杀重，食伤敌杀损官。<br>比肩的职能：财之敌。日旺一般以凶神论。</p>
+<p>比劫的扶抑能力：帮身，任官杀，化泄，夺财。日弱有比劫帮身，日弱有比劫任官杀，日弱有比劫不怕化泄，日旺有比劫夺财。</p>
+<!-- 还有十神表格未插入 -->
+
+<p>日主：阳土，日支：阳木，偏官；藏阳木（偏官）、阳火（偏印）、阳土（比肩）；<br>年干：阳水，偏财；年支：阳金，食神；藏阳金（食神）、阳水（偏财）、阳土（比肩）；<br>月干：阳火，偏印；月支：阳火，偏印；藏阴火（正印）、阴土（劫财）；<br>时干：阴木，正官；时支：阴木，正官，藏阴木（正官）。</p>
+<p>大运<br>男命逢子、寅、辰、午、申、戌阳支之年，大运以月柱为准，顺排。<br>男命逢阴年为逆，故男生于阴年大运以月柱为准，逆排。<br>女命阳年生为逆，故大运以月柱为准，逆排。<br>女命生于阴年大运以月柱为准，顺排。<br>起运数的起法，以三天折合一岁计，即一天折合四个月，两天折合八个月。<br>起运总数的计算方法。是以出生之日所在的月令，分男女顺逆算出，其顺逆与大运阳年生男命顺推女命逆推，阴年女命顺推男命逆推的排运方法同步。<br>阳年生人，男命以出生之日数起至本月令结束，</p>
+<p>6天，2岁运，丁未、戊申、己酉、庚戌、辛亥、壬子、癸丑、甲寅、乙卯、丙辰、丁巳、戊午<br>5年干运，5年支运</p>
+<p>流年</p>
+<p>寄生十二宫<br>【旺】处于旺盛状态</p>
+<p>【相】处于次旺状态</p>
+<p>【休】休然无事，亦即退休</p>
+<p>【囚】衰落被囚</p>
+<p>【死】被克制而生气全无<br>当令者旺，我生者相，生我者休，克我者囚，我克者死。<br>【木】 春旺 冬相 夏休 四季囚 秋死</p>
+<p>【火】 夏旺 春相 四季休 秋囚 冬死</p>
+<p>【土】 四季旺 夏相 秋休 冬囚 春死</p>
+<p>【金】 秋旺 春囚 夏死 四季相 冬休</p>
+<p>【水】 冬旺 四季死 春休 夏囚 秋相<br>四季是指每个季节的最后一个月，即辰戌丑未四月。</p>
+<p>五行寄生十二宫的原理，也就是每一个具体五行在十二个月中从生长到死亡过程的原理。十二宫的名称和解释是：</p>
+<p>【绝】 又叫“受气”，或“胞”，“以万物在地中，未有其象，如母腹空，未有物也”。</p>
+<p>【胎】 就是“受胎”，“天地气交，氤氲造物，其物在地中萌芽，始有其气，如人受父母之气也”。</p>
+<p>【养】 就是“成形”，“万物在地中成形，如人在母腹成形也”。</p>
+<p>【长生】“万物发生向荣，如人始生而向长也”。</p>
+<p>【沐浴】 又叫“败”，“以万物始生，形体柔脆，易为所损，如人生后三日，以沐浴之，几至困绝也”。</p>
+<p>【冠带】 “万物渐荣秀，如人具衣冠也”。</p>
+<p>【临官】“如人之临官也”。</p>
+<p>【帝旺】“万物成熟，如人之兴旺也”。</p>
+<p>【衰】“万物形衰，如人之气衰也”。</p>
+<p>【病】“万物病，如人之病也。。</p>
+<p>【死】“万物死，如人之死也”。</p>
+<p>【墓】 又叫“库”，“以万物成功而藏之库，如人之终而归墓也”。<br>神煞<br>1、地支相生：</p>
+<p>亥子生寅卯、寅卯生巳午、巳午生辰戌丑未、辰戌丑未生申酉、申酉生亥子</p>
+<p>2，地支相克：</p>
+<p>亥子克巳午、巳午克申酉、申酉克寅卯、寅卯克辰戌丑未、辰戌丑未克亥子</p>
+<p>3，十二支六合</p>
+<p>子与丑合化土</p>
+<p>午与未合化土</p>
+<p>寅与亥合化木</p>
+<p>卯与戌合化火</p>
+<p>辰与酉合化金</p>
+<p>巳与申合化水</p>
+<p>4，地支三合局</p>
+<p>申子辰合化水局 亥卯未合化木局</p>
+<p>寅午戌合化火局 巳酉丑合化金局</p>
+<p>5，地支三会局</p>
+<p>寅卯辰三会东方木局，巳午未三会南方火局，</p>
+<p>申酉戌三会西方金局，亥子丑三会北方水局，</p>
+<p>6，地支六冲</p>
+<p>子午冲：原局子旺能冲散午中己土，午旺烤干子水。</p>
+<p>丑未冲：本气相冲的目的就是制服库中之物（互毁）。</p>
+<p>寅申冲：冲中带克效率高，困为金是实体的，寅见亥冲过申，申见丑冲过寅。</p>
+<p>巳亥冲：看力量，巳中庚金克寅中甲木，亥中壬水克巳中丙火。</p>
+<p>卯酉冲：冲中带克效率高，卯见未冲了酉。</p>
+<p>辰戌冲：互毁看力量，目的是制服库中物，一般情况辰能戌，戌见寅毁辰土的力量大。</p>
+<p>1，冲起，力量相当</p>
+<p>2，冲动，弱冲强</p>
+<p>3，冲坏，强冲弱，或同属性的相冲</p>
+<p>总结：地支相冲就是往来互换，得到，交换，保持联系，所以相冲不具有破坏性，只有冲中带克才能冲坏。</p>
+<p>7，地支六穿（相穿也称相害）</p>
+<p>子未相穿 丑午相穿 寅巳相穿</p>
+<p>卯辰相穿 申亥相穿 酉戌相穿</p>
+<p>8，地支三刑</p>
+<p>寅巳申三刑，寅申巳见全者方以三刑论之；</p>
+<p>丑未戌三刑，丑未戌见全者方以三刑论之；</p>
+<p>原命同时出现为三刑，不同时出现，即是大运流年出现，因力量小，故不以三刑论。</p>
+<p>三刑互坏灭，未戌丑三刑，同五行相刑，刑的害处很大。</p>
+<p>有三刑即有损六亲。</p>
+<p>①相刑后刑出的是什么五行：两个五行相刑时，刑出的是什么五行，就要看哪个五行的力量大。</p>
+<p>②相刑后的两种结果：刑出害，刑出贵</p>
+<p>两个五行相刑后，刑出的五行对命主有害的，叫刑出害，刑出灾。如果刑出的五行对命主是有利的，就是刑出了贵。</p>
+<p>比如：未刑戌刑出火，因为未戌中都有火，所以刑出的是火，如果刑出的火是命主的禄（命中禄未伤，或命中无坏神之神），就是刑出了贵，如果火是命主的七杀，杀又无制，就是刑出了害，刑出灾。</p>
+<p>未刑戌（刑出火），戌刑丑（刑出金），丑未论冲</p>
+<p>未戌丑三刑的力量最大，本性都属土，为兄弟姐妹，出现相刑时的力量大，发生的事情比较恶劣。</p>
+<p>寅刑巳（论穿），巳刑申（论合），寅申冲</p>
+<p>这种相刑，如果没有我的体参与进来了，与在关系不大，那怕是参与了也可以退出，可以避免更坏的结果，按盲派理论，此三刑不以三刑而论，因巳申相合，无法相刑，论命时多以穿，合，冲而论。</p>
+<p>戌刑丑，牙齿不好</p>
+<p>9，生地半合</p>
+<p>生地半合由长生支与中神构成，生地半合的长生之支对中神有生助作</p>
+<p>用，所以生地半合增加中神的的力量大。</p>
+<p>申子半合水局：泄了申金的力量，增加了子水的力量。</p>
+<p>亥卯半合木局：泄了亥水的力量，增加了卯木的力量。</p>
+<p>寅午半合火局：泄了寅木的力量，增加了午火的力量。</p>
+<p>巳酉半合金局：巳火在力量小的情况下，跟随了金的性质，如果，巳火得木火之助时，巳酉半合不成功。</p>
+<p>10，墓地半合</p>
+<p>墓地半合由中神与墓库之支构成，午戌、卯未、子辰、酉丑。一般情况下，在月令相同时，生地半合比墓地半合的力量大( 巳酉与酉丑半合略有不同)。这是因为生地中的长生之支对中神有生助作用，而墓库之支对中神却主要是起收敛作用。</p>
+<p>①子辰半合水局，②卯未半合木局，③午戌半合火局，④酉丑半合金局。</p>
+<p>11，地支拱局</p>
+<p>四拱局拱出的是中神，中神是纯的，力量专一，所以，拱出的中神做事专一。</p>
+<p>①申辰拱子水 ②亥未拱卯木 ③寅戌拱午火 ④巳丑拱酉金</p>
+<p>12，地支相破</p>
+<p>地支相破，相互破坏之意，遇之双方两败俱伤。</p>
+<p>子卯相破，</p>
+<p>卯午相破</p>
+<p>13，地支四墓库</p>
+<p>辰为水（土）库，未为木库，戌为火库，丑为金库</p>
+<p>注：丑未戌入辰库时，辰为土库</p>
+<p>如何开库：</p>
+<p>辰见戌相冲开库</p>
+<p>丑未戌，三个之中同时有两个相遇时，开库</p>
+<p>14，五行入墓</p>
+<p>（1）当命中有两个同样的五行时，见到相应的墓库，即入墓。</p>
+<p>例如： * * *</p>
+<p>寅 卯 未</p>
+<p>未为木库，同时有两个木遇到未时，即为入墓状态，局中两木，见大运流年未到也为入墓</p>
+<p>（2）四隅神见墓即入，如，寅见未，申见丑，即入墓。</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：</li>
+        <li>本文作者：Lsc</li>
+        <li>创建时间：2022-04-18 12:27:24</li>
+        <li>
+            本文链接：https://63cheng.github.io/2022/04/18/八字/
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/2022/04/18/%E5%91%A8%E6%AD%A6%E7%8E%8B%E5%B0%81%E5%9B%BD/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2022/04/18/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E9%A2%84%E9%98%B2%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA%E7%8A%AF%E7%BD%AA%E6%B3%95/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2017</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Lsc</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/dark-light-toggle.js"></script>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/local-search.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/code-copy.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/lazyload.js"></script>
+
+
+<div class="post-scripts pjax">
+    
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/toc.js"></script>
+    
+</div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
