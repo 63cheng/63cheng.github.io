@@ -373,10 +373,10 @@ heading_line: true
 
 # Reward QR Code
 reward:
-  enable: false
+  enable: true
   # Your QR code for collecting money.
-  alipay:
-  wechat:
+  alipay: https://cdn.jsdelivr.net/gh/63cheng/album/202205081256998.jpg
+  wechat: https://cdn.jsdelivr.net/gh/63cheng/album/202205081255724.png
 
 # ---------------------------------------------------------------
 # Post config
@@ -662,9 +662,9 @@ local_search:
 # ! This feature can only be enabled if either `algolia_search` or `local_search` is enabled.
 # ! -----------------------------------------------------------------------------------------
 assist_search:
-  enable: false
+  enable: true
   # Show the Google Search button. Use `www.google.com` to search for what you type.
-  google: true
+  google: false
   # Show the Bing Search button. Use `www.bing.com` to search for what you type.
   bing: true
   # Show the Baidu Search button. Use `www.baidu.com` to search for what you type.
@@ -695,7 +695,7 @@ canvas_nest:
   # The opacity of lines (value: 0 ~ 1)
   opacity: 0.618
   # The number of lines.
-  count: 99
+  count: 618
   # `z-index` property of the background.
   zIndex: -1
 
@@ -717,7 +717,7 @@ math:
     cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem:
-      enable: false
+      enable: true
       mhchem_js: https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2/mhchem.min.js
   katex:
     cdn: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
