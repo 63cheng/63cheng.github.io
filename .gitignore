@@ -1,7 +1,9 @@
-/.github
-/.npmignore
-/_config.landscape.yml
-/node_modules
-/package-lock.json
-/scaffolds
-/themes
+.github
+.npmignore
+_config.landscape.yml
+node_modules
+package-lock.json
+scaffolds
+themes
+db.json
+public

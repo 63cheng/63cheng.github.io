@@ -135,7 +135,7 @@ header:
     # Whether to show on the article page.
     post: false
   # If you set a percentage, it will be calculated based on the height of screen (Supports all CSS units)
-  height: 100%
+  height: 81%
   # Background image of site header.
   bg_image:
     enable: true
@@ -155,7 +155,7 @@ header:
     bg_color: "#333"
   # The icon that prompts the user to pull down.
   scroll_down_icon:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     name: fas fa-angle-down
     animation: true
@@ -164,7 +164,7 @@ header:
 body:
   # Background image of site body.
   bg_image:
-    enable: true
+    enable: false
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
@@ -303,17 +303,18 @@ author:
 # Select your icon name, see: https://fontawesome.com/icons
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
+
 social:
   github: https://github.com/63cheng/ || fab fa-github
+  wechat: lsc_92 || fab fa-weixin  
+  qq: 635533017 || fab fa-qq
   # google: https://plus.google.com/ || fab fa-google
   # twitter: https://twitter.com/ || fab fa-twitter
   # youtube: https://youtube.com/ || fab fa-youtube
-  # segmentfault: https://segmentfault.com/ || origin:sf
+  # segmentfault: https://segmentfault.com/ || origin:sf  
   # weibo: https://weibo.com/ || fab fa-weibo
   # zhihu: https://www.zhihu.com/ || origin:知
-  wechat: lsc_92 || fab fa-weixin
   # telegram: yournumber || fab fa-telegram
-  qq: 635533017 || fab fa-qq
 
 social_setting:
   enable: false
